@@ -1,0 +1,8 @@
+.project
+build/export
+build/logs
+build/settings/user.properties
+build/unit
+algid-user-local/config/settings.json.cfm
+algid-user-local/config/version.json.cfm
+dist/
