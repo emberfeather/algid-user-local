@@ -1,3 +1,6 @@
+# General
+general.verbose=true
+
 # Test Settings
 test.host=localhost
 test.port=8500
