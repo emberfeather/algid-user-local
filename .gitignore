@@ -3,6 +3,6 @@ build/export
 build/logs
 build/settings/user.properties
 build/unit
-algid-user-local/config/settings.json.cfm
-algid-user-local/config/version.json.cfm
+user-local/config/settings.json.cfm
+user-local/config/version.json.cfm
 dist/

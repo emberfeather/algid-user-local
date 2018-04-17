@@ -1,3 +1,3 @@
-# algid-user-local
+# Local User Plugin
 
-Plugin for the algid framework.
+Local user plugin for the algid framework.
