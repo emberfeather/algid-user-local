@@ -30,11 +30,11 @@
 
 		<!--- User Table --->
 		<cfquery datasource="#variables.datasource.name#">
-			ALTER TABLE "#variables.datasource.prefix#user"."user" ADD COLUMN password character varying(100);
+			ALTER TABLE "#variables.datasource.prefix#user"."user" ADD COLUMN password character varying(200);
 		</cfquery>
 
 		<cfquery datasource="#variables.datasource.name#">
-			ALTER TABLE "#variables.datasource.prefix#user"."user" ADD COLUMN salt character varying(100);
+			ALTER TABLE "#variables.datasource.prefix#user"."user" ADD COLUMN salt uuid NULL;
 		</cfquery>
 	</cffunction>
 </cfcomponent>
