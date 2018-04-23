@@ -19,9 +19,3 @@
 	cursor: pointer;
 	padding: 1em;
 }
-
-.element.identity,
-.submit,
-.element label {
-	display: none;
-}
